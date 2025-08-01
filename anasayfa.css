@@ -1,0 +1,325 @@
+html, body {
+    overflow-x: hidden; 
+  }
+  
+body
+{
+   background-color: #f2f2f2;  
+}
+  .navbar .container-fluid {
+    max-width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .navbar .navbar-toggler {
+    margin-right: 15px; 
+    border-color: rgb(255, 255, 255);
+  }
+  
+  
+  .navbar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  
+  
+  @media (max-width: 992px) {
+    .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+  }
+  
+  .sliderr h5{
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+  }
+  
+  .sliderr p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5rem;
+  }
+  
+  .carousel-inner {
+    width: 100%;
+    max-height: 600px;
+  }
+  
+  .carousel-item img {
+    width: 1600px;
+    height: 600px;
+    object-fit: cover;
+  }
+  
+  .custom-size {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+  }
+  
+  .hakkimizda h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    
+  }
+  
+  .hakkimizda p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+  
+  }
+  
+  .urun img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+  }
+  
+  .urun-quotes {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    display: flex;
+  }
+  
+  .urun:hover .urun-quotes {
+    opacity: 1;
+  }
+  
+  
+  .soz{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+    text-shadow: 0px 0px 3px rgba(0,0,0,0.5),0px 0px 5px rgba(0,0,0,0.4),0px 0px 10px rgba(0,0,0,0.6);
+    color: white;
+  }
+  
+  
+  .soz2{
+    font-family: 'Pacifico', cursive;
+    font-size: 1.2rem;
+    color: white;
+    text-shadow: 0px 0px 3px rgba(0,0,0,0.5),0px 0px 5px rgba(0,0,0,0.4),0px 0px 10px rgba(0,0,0,0.6);
+    text-decoration: underline;
+    
+  }
+  
+  .soz::before, .soz::after {
+    content: '"';
+    color: white;
+  }
+  
+  .tema{
+    background-color: #013133;  
+  }
+  
+  .fonttema{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+  }
+  
+  .text-box {
+    padding: 20px; 
+    padding-left: 200px;
+    width: 50%;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    top: 50%; 
+    left: 0; 
+    transform: translateY(-50%); 
+    text-align: left; 
+  }
+  
+  .slider-title, .slider-subtitle {
+    color: white; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+  }
+  
+  .slider-title {
+    font-size: 2rem; 
+    margin-bottom: 10px;
+  }
+  
+  .slider-subtitle {
+    font-size: 1.5rem; 
+  }
+  
+  /* Tablet ekranlar için */
+  @media (max-width: 768px) {
+    .text-box {
+      padding-left: 100px; 
+      width: 60%; 
+    }
+  
+    .slider-title {
+      font-size: 1.65rem; 
+    }
+  
+    .slider-subtitle {
+      font-size: 1.15rem; 
+    }
+  }
+  
+  /* Mobil ekranlar için */
+  @media (max-width: 576px) {
+    .text-box {
+      padding-left: 20px;
+      width: 80%; 
+    }
+  
+    .slider-title {
+      font-size: 1.4rem; 
+    }
+  
+    .slider-subtitle {
+      font-size: 1.0rem; 
+    }
+  }
+  
+  
+  .logo img{
+    width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-left: 15px;
+      margin-right: 15px;
+  }
+  
+  
+
+
+  /* sepetim */
+.cart-count{
+  position: relative;
+  font-size: 12px;
+  left: -5px;
+  top:-10px;
+  background-color: #d9534f;
+  border-radius: 25%;
+
+  
+}
+
+/* tanitim */
+
+.about{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.about .wrapper{
+  width: 100%;
+  max-width: 1366px;
+  display: flex;
+  padding: 10px;
+  margin: 30px 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  flex-wrap: wrap;
+}
+
+.about .wrapper:nth-child(2n){
+  flex-direction: row-reverse;
+}
+
+.about .text{
+  flex: 5;
+  padding: 5px;
+}
+
+.about .picture{
+  flex: 1;
+  padding: 5px;
+}
+
+.about .text h1{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 10px;
+  color: #0c233a;
+}
+
+.about .text p{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.2rem;
+  padding: 10px;
+  line-height: 25px;
+  color: #102e4c;
+}
+
+.about .text p::first-letter{
+  margin-left: 20px;
+  font-size: 1.3rem;
+}
+
+.about .picture img{
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+  height: 300px;
+  object-fit: cover;
+}
+
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about .wrapper {
+      flex-direction: column !important;
+  }
+
+  .about .picture img {
+      height: auto;
+      width: 100%;
+      max-height: 300px; 
+  }
+
+  .about .text {
+      order: 2;
+  }
+
+  .about .picture {
+      order: 1;
+  }
+}
+
+/* sponsor */
+.btn-custom {
+    background-color: #013133;
+    border: 2px solid #013133;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-custom:hover {
+    background-color: #014547;
+    border-color: #014547;
+    color: white;
+}
+.sponsor-form {
+    border: 3px solid #013133; /* İstediğin kalınlık ve renk */
+    border-radius: 8px; /* İstersen köşeleri hafif yuvarlat */
+    padding: 20px; /* İç boşluk */
+    background-color: #f8f9fa; /* İstersen formun iç arkaplanını açık yapabilirsin */
+}
